@@ -15,11 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94294c02-b04f-477f-af3f-ee8ebfe79882" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/API docker Test/Controllers/GetIdController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API docker Test/Controllers/TaskController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API docker Test/Controllers/LoginController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API docker Test/Models/LoginModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API docker Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API docker Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API docker Test/API docker Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API docker Test/API docker Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API docker Test/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API docker Test/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/API docker Test/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API docker Test/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +50,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/API docker Test/Controllers/GetIdController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API docker Test/Controllers/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API docker Test/Controllers/TaskController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API docker Test/Models/LoginModel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -61,61 +61,61 @@
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000130242" />
-      <entry key="MS500" value="1.0066519820917885" />
-      <entry key="S2" value="1.2855865617121363" />
-      <entry key="S5" value="1.6057523493023815" />
-      <entry key="S10" value="1.7783115124432065" />
-      <entry key="S30" value="2.007053544724435" />
-      <entry key="S60" value="2.793816842953912" />
-      <entry key="M2" value="4.65316857638957" />
-      <entry key="M5" value="11.742997087108357" />
-      <entry key="M10" value="29.428644898376103" />
-      <entry key="M15" value="45.287239759478304" />
-      <entry key="M30" value="74.08036521463752" />
-      <entry key="H1" value="96.75972523732756" />
-      <entry key="H2" value="111.11947925169854" />
-      <entry key="H4" value="119.21699737268948" />
-      <entry key="D1" value="126.48601033289704" />
-      <entry key="W1" value="127.78245267608844" />
+      <entry key="MS100" value="1.0000004702724001" />
+      <entry key="MS500" value="1.0542587658108373" />
+      <entry key="S2" value="1.4909527615789453" />
+      <entry key="S5" value="2.02007295667636" />
+      <entry key="S10" value="2.9298623191781523" />
+      <entry key="S30" value="5.263145914396041" />
+      <entry key="S60" value="7.864937883095486" />
+      <entry key="M2" value="13.63451345812116" />
+      <entry key="M5" value="27.164437397381757" />
+      <entry key="M10" value="40.025684108848566" />
+      <entry key="M15" value="48.4332455526714" />
+      <entry key="M30" value="70.73904528912486" />
+      <entry key="H1" value="106.2486799546287" />
+      <entry key="H2" value="142.75321279322438" />
+      <entry key="H4" value="169.6797575966592" />
+      <entry key="D1" value="198.42190742865438" />
+      <entry key="W1" value="204.0417124257012" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.3761766577188656E-102" />
-      <entry key="S2" value="3.425062862489114E-26" />
-      <entry key="S5" value="6.514294955160098E-11" />
-      <entry key="S10" value="8.071118234272189E-6" />
-      <entry key="S30" value="0.020059090547623826" />
-      <entry key="S60" value="0.14164820827970112" />
-      <entry key="M2" value="0.3852662839693312" />
-      <entry key="M5" value="1.1702195927479755" />
-      <entry key="M10" value="3.236157889569967" />
-      <entry key="M15" value="5.193763967805636" />
-      <entry key="M30" value="8.87428768914568" />
-      <entry key="H1" value="11.8436033482365" />
-      <entry key="H2" value="13.746001955735203" />
-      <entry key="H4" value="14.82505127048141" />
-      <entry key="D1" value="15.79714535630675" />
-      <entry key="W1" value="15.970843556467628" />
+      <entry key="MS100" value="1.696331448428447E-22" />
+      <entry key="MS500" value="4.424886574947667E-5" />
+      <entry key="S2" value="0.0815613729534265" />
+      <entry key="S5" value="0.3739880317640295" />
+      <entry key="S10" value="0.7339205980709266" />
+      <entry key="S30" value="1.9205281451347935" />
+      <entry key="S60" value="3.3397812072591986" />
+      <entry key="M2" value="5.679296505325823" />
+      <entry key="M5" value="9.938171304377057" />
+      <entry key="M10" value="13.725693283262627" />
+      <entry key="M15" value="15.988487004226556" />
+      <entry key="M30" value="20.33554606185388" />
+      <entry key="H1" value="25.660540054178117" />
+      <entry key="H2" value="30.69621633552503" />
+      <entry key="H4" value="34.31393743721127" />
+      <entry key="D1" value="38.13080527439833" />
+      <entry key="W1" value="38.87345913229127" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.7262187734841403E-4" />
-      <entry key="MS500" value="0.20894552301653027" />
-      <entry key="S2" value="0.903101297482679" />
-      <entry key="S5" value="1.4087208229157095" />
-      <entry key="S10" value="1.668937512488424" />
-      <entry key="S30" value="1.9792622497763752" />
-      <entry key="S60" value="2.8811415408304195" />
-      <entry key="M2" value="4.979364989951024" />
-      <entry key="M5" value="12.86895160254848" />
-      <entry key="M10" value="32.6318347651979" />
-      <entry key="M15" value="50.45374150429176" />
-      <entry key="M30" value="82.93652235846919" />
-      <entry key="H1" value="108.59254146340511" />
-      <entry key="H2" value="124.85954794004742" />
-      <entry key="H4" value="134.03893044934912" />
-      <entry key="D1" value="142.28261336393854" />
-      <entry key="W1" value="143.75321818164178" />
+      <entry key="MS100" value="7.118480896045667E-6" />
+      <entry key="MS500" value="0.09870532220708028" />
+      <entry key="S2" value="0.8327070566103211" />
+      <entry key="S5" value="1.7392703104798148" />
+      <entry key="S10" value="3.1063826648809765" />
+      <entry key="S30" value="6.832347716347487" />
+      <entry key="S60" value="10.939074830439438" />
+      <entry key="M2" value="19.1084818594457" />
+      <entry key="M5" value="36.97081070938189" />
+      <entry key="M10" value="53.66502840785567" />
+      <entry key="M15" value="64.35624892058954" />
+      <entry key="M30" value="91.0342563780104" />
+      <entry key="H1" value="131.8845937067975" />
+      <entry key="H2" value="173.43510286361553" />
+      <entry key="H4" value="203.98582870125617" />
+      <entry key="D1" value="236.55128024178464" />
+      <entry key="W1" value="242.9149635783881" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -255,7 +255,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="Container docker adicionado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Container docker adicionado" />
+    <MESSAGE value="Adicionado as outras controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado as outras controllers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

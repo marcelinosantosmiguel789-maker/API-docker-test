@@ -1,3 +1,7 @@
+using API_docker_Test.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
@@ -13,3 +17,4 @@ app.UseSwaggerUI();
 app.MapControllers();
 
 app.Run();
+
