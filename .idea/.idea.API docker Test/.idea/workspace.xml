@@ -15,7 +15,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94294c02-b04f-477f-af3f-ee8ebfe79882" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/API docker Test/Controllers/GetIdController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/API docker Test/Controllers/TaskController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API docker Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API docker Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API docker Test/API docker Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/API docker Test/API docker Test.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API docker Test/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API docker Test/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API docker Test/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API docker Test/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +38,97 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "marcelinosantosmiguel789-maker"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;marcelinosantosmiguel789-maker&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/marcelinosantosmiguel789-maker/API-docker-test.git",
-    "accountId": "1d1d59bc-5acd-4c3b-a139-33063a2f4e79"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/marcelinosantosmiguel789-maker/API-docker-test.git&quot;,
+    &quot;accountId&quot;: &quot;1d1d59bc-5acd-4c3b-a139-33063a2f4e79&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/miguelmarcelinosantos/RiderProjects/API docker Test/API docker Test/Controllers/HomeController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API docker Test/Controllers/GetIdController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/API docker Test/Controllers/TaskController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000130242" />
+      <entry key="MS500" value="1.0066519820917885" />
+      <entry key="S2" value="1.2855865617121363" />
+      <entry key="S5" value="1.6057523493023815" />
+      <entry key="S10" value="1.7783115124432065" />
+      <entry key="S30" value="2.007053544724435" />
+      <entry key="S60" value="2.793816842953912" />
+      <entry key="M2" value="4.65316857638957" />
+      <entry key="M5" value="11.742997087108357" />
+      <entry key="M10" value="29.428644898376103" />
+      <entry key="M15" value="45.287239759478304" />
+      <entry key="M30" value="74.08036521463752" />
+      <entry key="H1" value="96.75972523732756" />
+      <entry key="H2" value="111.11947925169854" />
+      <entry key="H4" value="119.21699737268948" />
+      <entry key="D1" value="126.48601033289704" />
+      <entry key="W1" value="127.78245267608844" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.3761766577188656E-102" />
+      <entry key="S2" value="3.425062862489114E-26" />
+      <entry key="S5" value="6.514294955160098E-11" />
+      <entry key="S10" value="8.071118234272189E-6" />
+      <entry key="S30" value="0.020059090547623826" />
+      <entry key="S60" value="0.14164820827970112" />
+      <entry key="M2" value="0.3852662839693312" />
+      <entry key="M5" value="1.1702195927479755" />
+      <entry key="M10" value="3.236157889569967" />
+      <entry key="M15" value="5.193763967805636" />
+      <entry key="M30" value="8.87428768914568" />
+      <entry key="H1" value="11.8436033482365" />
+      <entry key="H2" value="13.746001955735203" />
+      <entry key="H4" value="14.82505127048141" />
+      <entry key="D1" value="15.79714535630675" />
+      <entry key="W1" value="15.970843556467628" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="3.7262187734841403E-4" />
+      <entry key="MS500" value="0.20894552301653027" />
+      <entry key="S2" value="0.903101297482679" />
+      <entry key="S5" value="1.4087208229157095" />
+      <entry key="S10" value="1.668937512488424" />
+      <entry key="S30" value="1.9792622497763752" />
+      <entry key="S60" value="2.8811415408304195" />
+      <entry key="M2" value="4.979364989951024" />
+      <entry key="M5" value="12.86895160254848" />
+      <entry key="M10" value="32.6318347651979" />
+      <entry key="M15" value="50.45374150429176" />
+      <entry key="M30" value="82.93652235846919" />
+      <entry key="H1" value="108.59254146340511" />
+      <entry key="H2" value="124.85954794004742" />
+      <entry key="H4" value="134.03893044934912" />
+      <entry key="D1" value="142.28261336393854" />
+      <entry key="W1" value="143.75321818164178" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0,
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3KHtJVcFiO8Xfiu1e2Q6ksxi4KV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,6 +137,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.API docker Test: http.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -69,12 +145,15 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.API docker Test: http">
@@ -175,7 +254,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Container docker adicionado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Container docker adicionado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

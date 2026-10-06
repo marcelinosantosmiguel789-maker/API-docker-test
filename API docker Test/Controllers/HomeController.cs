@@ -6,9 +6,9 @@ namespace API_docker_Test.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
+    private readonly ILogger<ProductsController> _logger;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<ProductsController> logger)
     {
         _logger = logger;
     }
